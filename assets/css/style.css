@@ -35,6 +35,7 @@ body {
   font-weight: normal;
   font-style: normal;
   color: var(--text);
+  overflow-x: hidden;
 }
 
 a,
