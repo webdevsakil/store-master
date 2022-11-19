@@ -363,3 +363,37 @@ h6,
 .right-col-area {
   padding-left: 90px;
 }
+
+/* picture v2 */
+
+.sidebar-logo-area {
+  margin-top: 70px;
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: center;
+}
+.sidebar-bottom-two {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+.sidebar-bottom-two-content-area {
+  position: relative;
+}
+.sidebar-bottom-two-content-area .flower-img {
+  position: absolute;
+  right: 35px;
+  bottom: 120px;
+}
+.sidebar-bottom-two-content-area .insta-img {
+  position: absolute;
+  left: 15px;
+  bottom: 80px;
+}
+.sidebar-bottom-two-content-area .bottom-text p {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  color: rgba(255, 255, 255, 1);
+  margin-left: 15px;
+}
