@@ -20,6 +20,7 @@
   --gray: #666666;
   --white: #fff;
   --lightWhite: rgba(255, 255, 255, 0.1);
+  --homeBg: #eef5f2;
 }
 
 /* theme default css */
@@ -34,7 +35,6 @@ body {
   font-weight: normal;
   font-style: normal;
   color: var(--text);
-  background: var(---dark);
 }
 
 a,
@@ -401,15 +401,72 @@ h6,
   margin-top: 45px;
   padding-bottom: 15px;
 }
-.main-area.main-area-style-two .page-header{
+.main-area.main-area-style-two .page-header {
   margin-bottom: 25px;
 }
 .main-area.main-area-style-two .page-footer {
- margin-top: 20px;
+  margin-top: 20px;
 }
-.main-area.main-area-style-two .page-footer p{
+.main-area.main-area-style-two .page-footer p {
   font-size: 16px;
   font-weight: 400;
   line-height: 26px;
   color: rgba(215, 43, 162, 1);
+}
+
+/* main area style three */
+.top-list-items ul li {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+  color: rgba(102, 149, 178, 1);
+  text-transform: uppercase;
+  margin-left: 20px;
+}
+.main-area-style-three .page-footer p {
+  color: rgba(215, 43, 162, 1);
+}
+.main-area-style-three .sidebar-list-items li {
+  margin-bottom: 15px;
+}
+.sidebar-three .sidebar-list-items .time {
+  text-align: right;
+}
+.sidebar-three .sidebar-logo-area {
+  border-bottom: 1px solid rgba(192, 190, 194, 0.4);
+  padding-bottom: 18px;
+  margin-top: 54px;
+  margin-bottom: 30px;
+}
+
+/* home page */
+.bg-home {
+  background: var(--homeBg);
+}
+.btn-fill {
+  text-decoration: none;
+  display: block;
+  font-size: 20px;
+  line-height: 34px;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 1);
+  background: rgba(64, 13, 49, 1);
+  text-transform: capitalize;
+  padding: 8px 30px;
+  border-radius: 6px;
+  opacity: 0.4;
+  transition: all ease-in 0.3s;
+}
+.btn-fill:hover {
+  opacity: 1 ;
+  color: #fff;
+}
+.single-card .btn-area {
+  margin: 40px 0px;
+}
+.single-card img{
+  transition: all ease-in 0.4s;
+}
+.single-card img:hover{
+  transform: translateY(-5px);
 }
