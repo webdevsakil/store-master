@@ -10,6 +10,15 @@
     .main-title {
         margin-left: 5px;
     }
+    .sidebar-bottom-two {
+        bottom: 0px;
+    }
+    .sidebar-bottom-two-content-area .bottom-text p {
+        font-size: 14px;
+    }
+    .sidebar-bottom-two-content-area .insta-img {
+        bottom: 70px;
+    }
 }
 
 /* Tablet desktop :768px. */
@@ -41,6 +50,31 @@
     }
     .right-col-area {
         padding-left: 15px;
+    }
+    /* picture v2 */
+
+    .siderbar-wrapper.sidebar-two .sidebar-logo-area {
+        margin-top: 50px;
+        margin-bottom: 20px;
+        display: flex;
+        justify-content: start;
+    }
+    .siderbar-wrapper.sidebar-two .sidebar-bottom-two {
+        position: unset;
+    }
+    .siderbar-wrapper.sidebar-two .sidebar-bottom-two-content-area .flower-img {
+        position: unset;
+    }
+    .siderbar-wrapper.sidebar-two .sidebar-bottom-two-content-area .insta-img {
+        position: unset;
+        margin-top: 40px;
+    }
+    .sidebar-bottom-two-content-area .bottom-text p {
+        margin-top: 20px;
+        margin-left: 0px;
+    }
+    .siderbar-wrapper.sidebar-two .sidebar-bottom-two-content-area {
+        padding-bottom: 30px;
     }
 }
 /* Large Mobile :480px. */
@@ -86,6 +120,32 @@
     }
     .main-area {
         padding-top: 40px;
+    }
+
+    /* picture v2 */
+
+    .siderbar-wrapper.sidebar-two .sidebar-logo-area {
+        margin-top: 50px;
+        margin-bottom: 20px;
+        display: flex;
+        justify-content: start;
+    }
+    .siderbar-wrapper.sidebar-two .sidebar-bottom-two {
+        position: unset;
+    }
+    .siderbar-wrapper.sidebar-two .sidebar-bottom-two-content-area .flower-img {
+        position: unset;
+    }
+    .siderbar-wrapper.sidebar-two .sidebar-bottom-two-content-area .insta-img {
+        position: unset;
+        margin-top: 40px;
+    }
+    .sidebar-bottom-two-content-area .bottom-text p {
+        margin-top: 20px;
+        margin-left: 0px;
+    }
+    .siderbar-wrapper.sidebar-two .sidebar-bottom-two-content-area {
+        padding-bottom: 30px;
     }
 }
 
@@ -178,5 +238,28 @@
     }
     .sidebar-bottom h5 {
         padding: 0px 10px;
+    }
+
+    /* picture version two */
+
+    .siderbar-wrapper.sidebar-two .sidebar-logo-area {
+        margin-top: 50px;
+        margin-bottom: 20px;
+        display: flex;
+        justify-content: start;
+    }
+    .siderbar-wrapper.sidebar-two .sidebar-bottom-two {
+        position: unset;
+    }
+    .siderbar-wrapper.sidebar-two .sidebar-bottom-two-content-area .flower-img {
+        position: unset;
+    }
+    .siderbar-wrapper.sidebar-two .sidebar-bottom-two-content-area .insta-img {
+        position: unset;
+        margin-top: 40px;
+    }
+    .sidebar-bottom-two-content-area .bottom-text p {
+        margin-top: 20px;
+        margin-left: 0px;
     }
 }

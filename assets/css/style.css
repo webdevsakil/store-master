@@ -375,7 +375,7 @@ h6,
 .sidebar-bottom-two {
   position: absolute;
   left: 0;
-  bottom: 0;
+  bottom: 100px;
 }
 .sidebar-bottom-two-content-area {
   position: relative;
@@ -396,4 +396,20 @@ h6,
   line-height: 28px;
   color: rgba(255, 255, 255, 1);
   margin-left: 15px;
+}
+.main-area .page-logo-area {
+  margin-top: 45px;
+  padding-bottom: 15px;
+}
+.main-area.main-area-style-two .page-header{
+  margin-bottom: 25px;
+}
+.main-area.main-area-style-two .page-footer {
+ margin-top: 20px;
+}
+.main-area.main-area-style-two .page-footer p{
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  color: rgba(215, 43, 162, 1);
 }
