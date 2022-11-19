@@ -1,4 +1,103 @@
 /* Normal desktop :1200px. */
+@media (min-width: 992px) and (max-width: 1500px) {
+    .card-wrappper {
+        max-width: 300px;
+    }
+    .card-wrappper span:nth-child(1) {
+        margin-left: -26px;
+    }
+    .sub-title,
+    .main-title {
+        margin-left: 5px;
+    }
+}
+
+/* Tablet desktop :768px. */
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .header-area .img-area {
+        margin-bottom: 20px;
+    }
+    .right-area.mt-20 {
+        margin-top: 0px;
+    }
+    /* flower */
+    .siderbar-wrapper .page-title h1 a {
+        text-align: left;
+    }
+    .sidebar-bottom {
+        height: 300px;
+        margin-top: 0px;
+    }
+    .sidebar-bottom h5 {
+        font-size: 26px;
+        line-height: 36px;
+    }
+    .sidebar-bottom-text-wrap {
+        padding-right: 260px;
+    }
+    .main-area {
+        padding-top: 42px;
+    }
+    .right-col-area {
+        padding-left: 15px;
+    }
+}
+/* Large Mobile :480px. */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .right-area .button {
+        padding-left: 0px;
+    }
+    .left-area .button {
+        padding-right: 0px;
+    }
+    .card-item {
+        text-align: center;
+    }
+    .card-wrapper {
+        margin-left: 0px;
+    }
+    .card-item .text span {
+        display: block;
+    }
+    /* flower */
+    .siderbar-wrapper .shape-image {
+        margin-left: 20%;
+    }
+    .sidebar-bottom {
+        background-size: contain !important;
+        margin-top: 0px;
+        height: 280px;
+        margin-bottom: 50px;
+    }
+    .sidebar-bottom-text-wrap {
+        padding-right: 50px;
+    }
+    .siderbar-wrapper {
+        min-height: fit-content;
+    }
+    .sidebar-bottom h5 {
+        font-size: 24px;
+        line-height: 36px;
+    }
+    .right-col-area {
+        padding-left: 15px;
+    }
+    .main-area {
+        padding-top: 40px;
+    }
+}
+
+/* mini mobile */
+@media (min-width: 350px) and (max-width: 480px) {
+    .sidebar-bottom-text-wrap {
+        padding-right: 20%;
+    }
+    .sidebar-bottom {
+        height: 220px;
+    }
+}
 @media (min-width: 320px) and (max-width: 480px) {
     .logo a {
         font-size: 20px;
@@ -42,49 +141,42 @@
     .btn-area {
         margin-left: 0px;
     }
-    .card-item .text{
+    .card-item .text {
         display: flex;
         justify-content: space-between;
     }
-}
 
-/* Large Mobile :480px. */
-@media only screen and (min-width: 480px) and (max-width: 767px) {
-    .right-area .button {
-        padding-left: 0px;
-    }
-    .left-area .button {
-        padding-right: 0px;
-    }
-    .card-item {
-        text-align: center;
-    }
-    .card-wrapper {
-        margin-left: 0px;
-    }
-    .card-item .text span{
-        display: block;
-    }
-}
-/* Tablet desktop :768px. */
-@media (min-width: 768px) and (max-width: 991px) {
-    .header-area .img-area {
-        margin-bottom: 20px;
-    }
-    .right-area.mt-20 {
+    /* flower page */
+    .sidebar-bottom {
         margin-top: 0px;
     }
-}
-/* Normal desktop :1200px. */
-@media (min-width: 992px) and (max-width: 1500px) {
-    .card-wrappper {
-        max-width: 300px;
+    .siderbar-wrapper {
+        min-height: fit-content;
+        padding-bottom: 25px;
     }
-    .card-wrappper span:nth-child(1) {
-        margin-left: -26px;
+    .sidebar-list-items .item-wrapper {
+        display: block;
+        padding: 10px 0px;
     }
-    .sub-title,.main-title{
-        margin-left: 5px;
+    .sidebar-list-items .left-area p {
+        margin-bottom: 0px;
     }
-}
 
+    .sidebar-list-items .time span {
+        font-weight: 400;
+        font-size: 14px;
+        padding-left: 0px;
+    }
+    .right-col-area {
+        padding-left: 15px;
+    }
+    .main-area .abs-img {
+        position: absolute;
+        bottom: 0px;
+        right: -20px;
+        z-index: -1;
+    }
+    .sidebar-bottom h5 {
+        padding: 0px 10px;
+    }
+}
