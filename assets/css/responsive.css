@@ -116,7 +116,7 @@
         margin-left: 0px;
     }
     .card-item .text span {
-        display: block;
+        display: inline-block;
     }
     /* flower */
     .siderbar-wrapper .shape-image {
@@ -228,7 +228,7 @@
     }
     .right-area .card-item span:nth-child(1) {
         margin-left: 0px;
-        margin-right: 40px;
+        margin-right: 10px;
     }
     .card-wrapper {
         margin-left: 0px;
@@ -239,6 +239,10 @@
     .card-item .text {
         display: flex;
         justify-content: space-between;
+    }
+    .card-item {
+
+        text-align: center;
     }
 
     /* flower page */
@@ -308,4 +312,13 @@
     .sidebar-three .sidebar-list-items .time {
         text-align: left;
     }
+
+    .lists li {
+        margin: 0px 10px;
+    }
+    .card-wrapper .sub-title {
+        text-align: center;
+        margin-left: 0px;
+    }
+    
 }
