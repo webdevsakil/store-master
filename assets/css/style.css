@@ -307,7 +307,6 @@ h6,
   font-size: 16px;
   line-height: 24px;
   color: rgba(192, 190, 194, 1);
- 
 }
 .sidebar-list-items .time span {
   font-weight: 400;
@@ -358,13 +357,22 @@ h6,
   line-height: 46px;
   text-transform: uppercase;
 }
-.main-area .page-header .page-heading p {
+
+.main-area .page-header .page-subheading p {
+  text-transform: uppercase;
   line-height: 26px;
 }
 .right-col-area {
   padding-left: 90px;
 }
-
+.page-logo-area span {
+  font-weight: 600;
+  text-transform: capitalize;
+  font-size: 36px;
+  line-height: 46px;
+  color: rgba(215, 43, 162, 1);
+  font-family: "Dancing Script", cursive;
+}
 /* picture v2 */
 
 .sidebar-logo-area {
@@ -439,6 +447,16 @@ h6,
   margin-top: 54px;
   margin-bottom: 30px;
 }
+.sidebar-three .sidebar-logo-area a span {
+  display: inline-block;
+  text-decoration: none;
+  font-family: "Dancing Script", cursive;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 46px;
+  color: rgba(215, 43, 162, 1);
+  text-transform: capitalize;
+}
 
 /* home page */
 .bg-home {
@@ -459,15 +477,15 @@ h6,
   transition: all ease-in 0.3s;
 }
 .btn-fill:hover {
-  opacity: 1 ;
+  opacity: 1;
   color: #fff;
 }
 .single-card .btn-area {
   margin: 40px 0px;
 }
-.single-card img{
+.single-card img {
   transition: all ease-in 0.4s;
 }
-.single-card img:hover{
+.single-card img:hover {
   transform: translateY(-5px);
 }
